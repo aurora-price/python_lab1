@@ -29,17 +29,17 @@ name = "Aurora Price"
 
 #Length of name.
 length = len(name)
-print(length)
+print(length, "letters is the length of my name.")
 
 #Concatenate name with a space in between.
-word1 = "Aurora"
-word2 = "Price"
-print(word1, word2)
+first_name = "Aurora"
+last_name = "Price"
+print(first_name, last_name)
 
 #Convert name to uppercase and lowercase.
-word3 = "Aurora Price"
-print(word3.upper())
-print(word3.lower())
+full_name = "Aurora Price"
+print(full_name.upper())
+print(full_name.lower())
 
 #Problem 3
 
