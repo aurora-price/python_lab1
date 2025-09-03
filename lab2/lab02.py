@@ -13,7 +13,7 @@ print(favorite_color)
 
 print(name,age,height,favorite_color)
 
-print(f"Hello: My name is {name} and my favorite color is {favorite_color}! I am {age} years old and I am {height} inches tall.")
+print(f"Hello: My name is {name} and my favorite color is {favorite_color}! I am {age} years old and I am {height}.")
 
 print(f"""
 Name: {name}
@@ -25,16 +25,19 @@ Favorite Color: {favorite_color}
 import math
 radius = 5
 circle_area = round(math.pi * radius ** 2,1)
+
 print(f"The area of the circle is {circle_area}")
 
 #Problem 2
 
 import math
 age_sqrt = math.sqrt(age)
+
 print(age_sqrt)
 
 height_sin = math.sin(height)
 height_cos = math.cos(height)
+
 print(height_sin)
 print(height_cos)
 
@@ -45,6 +48,7 @@ product = age*height
 quotient = height/2
 remainder = age%3
 squared = age**2
+
 print(f"""
 Sum: {sum}
 Difference: {difference}
@@ -58,6 +62,7 @@ Squared: {squared}
 Fahrenheit = float(input("Enter Fahrenheit: "))
 Celsius = round((Fahrenheit - 32) * 5/9,1)
 degree = u"\N{DEGREE SIGN}"
+
 print(f"{Celsius}{degree}C")
 
 
